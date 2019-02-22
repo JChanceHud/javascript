@@ -64,7 +64,7 @@ module.exports = {
     'react/no-unused-state': 2,
     'react/no-will-update-set-state': 2,
     'react/prefer-es6-class': 2,
-    'react/require-optimization': 1,
+    'react/require-optimization': 0,
     'react/self-closing-comp': 2,
     'react/sort-prop-types': 2,
     'react/jsx-closing-bracket-location': [
