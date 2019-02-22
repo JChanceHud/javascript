@@ -3,7 +3,8 @@ module.exports = {
     'prettier',
     'react',
     'react-native',
-    'import'
+    'import',
+    'eslint-plugin-flowtype'
   ],
   parserOptions: {
     'ecmaVersion': 6,
