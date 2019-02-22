@@ -1,6 +1,6 @@
 {
   "name": "@jchancehud/eslint-config",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A javascript eslint config",
   "private": false,
   "main": "config.js",
@@ -13,6 +13,7 @@
     "eslint": ">=5"
   },
   "dependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint-plugin-flowtype": "^3.4.2",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-prettier": "^3.0.1",

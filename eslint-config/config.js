@@ -1,11 +1,5 @@
 module.exports = {
-  plugins: [
-    'prettier',
-    'react',
-    'react-native',
-    'import',
-    'eslint-plugin-flowtype'
-  ],
+  parser: 'babel-eslint',
   parserOptions: {
     'ecmaVersion': 6,
     'sourceType': 'module',
@@ -13,6 +7,13 @@ module.exports = {
       'jsx': true
     }
   },
+  plugins: [
+    'prettier',
+    'react',
+    'react-native',
+    'import',
+    'eslint-plugin-flowtype'
+  ],
   rules: {
     'no-useless-constructor': 1,
     'no-unused-vars': 1,
