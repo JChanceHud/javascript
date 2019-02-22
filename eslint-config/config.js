@@ -76,7 +76,7 @@ module.exports = {
     'react/jsx-pascal-case': 2,
     'react/jsx-sort-props': 2,
     'react/jsx-uses-react': 1,
-    'react/jsx-uses-vars': 1
+    'react/jsx-uses-vars': 1,
     'react-native/split-platform-components': 1,
     'react-native/no-color-literals': 2,
   }
