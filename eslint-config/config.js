@@ -65,8 +65,8 @@ module.exports = {
     'react/no-will-update-set-state': 2,
     'react/prefer-es6-class': 2,
     'react/require-optimization': 0,
-    'react/self-closing-comp': 2,
-    'react/sort-prop-types': 2,
+    'react/self-closing-comp': 0,
+    'react/sort-prop-types': 0,
     'react/jsx-closing-bracket-location': [
       2,
       'tag-aligned'
@@ -76,10 +76,10 @@ module.exports = {
     'react/jsx-indent': [2, 2],
     'react/jsx-no-duplicate-props': 2,
     'react/jsx-pascal-case': 2,
-    'react/jsx-sort-props': 2,
+    'react/jsx-sort-props': 0,
     'react/jsx-uses-react': 1,
     'react/jsx-uses-vars': 1,
-    'react-native/split-platform-components': 1,
-    'react-native/no-color-literals': 2,
+    'react-native/split-platform-components': 0,
+    'react-native/no-color-literals': 0,
   }
 };
