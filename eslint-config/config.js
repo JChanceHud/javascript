@@ -17,7 +17,7 @@ module.exports = {
   rules: {
     'no-useless-constructor': 1,
     'no-unused-vars': 1,
-    'prettier/prettier': ['error', {
+    'prettier/prettier': [1, {
       'trailingComma': 'es5',
       'arrowParens': 'always',
       'singleQuote': true
@@ -44,7 +44,7 @@ module.exports = {
     'no-multi-assign': 2,
     'no-plusplus': 1,
     'eqeqeq': 1,
-    'no-case-declarations': 1,
+    'no-case-declarations': 0,
     'no-nested-ternary': 2,
     'no-unneeded-ternary': 2,
     'nonblock-statement-body-position': 2,
@@ -52,7 +52,7 @@ module.exports = {
     'camelcase': 2,
     'react/no-string-refs': 2,
     'react/require-render-return': 2,
-    'react/jsx-no-bind': 1,
+    'react/jsx-no-bind': 0,
     'react/boolean-prop-naming': 2,
     'react/jsx-boolean-value': 2,
     'react/no-did-mount-set-state': 2,
