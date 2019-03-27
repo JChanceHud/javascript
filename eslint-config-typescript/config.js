@@ -8,6 +8,7 @@ module.exports = {
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
+      legacyDecorators: true,
     },
   },
   plugins: [
