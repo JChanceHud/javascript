@@ -1,0 +1,20 @@
+{
+  "name": "@jchancehud/eslint-config-typescript",
+  "version": "0.0.1",
+  "description": "A typescript eslint config",
+  "private": false,
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chance Hudson",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=5"
+  },
+  "dependencies": {
+    "@jchancehud/eslint-config": "0.0.8",
+    "@typescript-eslint/eslint-plugin": "^1.5.0",
+    "@typescript-eslint/parser": "^1.5.0"
+  }
+}
