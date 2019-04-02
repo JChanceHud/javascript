@@ -1,6 +1,6 @@
 {
   "name": "@jchancehud/eslint-config-typescript",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A typescript eslint config",
   "private": false,
   "main": "config.js",
