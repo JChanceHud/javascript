@@ -16,12 +16,14 @@ module.exports = {
     'eslint-plugin-flowtype'
   ],
   rules: {
+    'semi': [1, 'never'],
     'no-useless-constructor': 1,
     'no-unused-vars': 1,
     'prettier/prettier': [1, {
       'trailingComma': 'es5',
       'arrowParens': 'always',
-      'singleQuote': true
+      'singleQuote': true,
+      'semi': false,
     }],
     'prefer-const': 2,
     'no-const-assign': 2,
