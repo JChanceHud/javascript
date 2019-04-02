@@ -1,6 +1,6 @@
 {
   "name": "@jchancehud/eslint-config-typescript",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A typescript eslint config",
   "private": false,
   "main": "config.js",
@@ -13,7 +13,7 @@
     "eslint": ">=5"
   },
   "dependencies": {
-    "@jchancehud/eslint-config": "^0.0.9",
+    "@jchancehud/eslint-config": "^0.0.10",
     "@typescript-eslint/eslint-plugin": "^1.5.0",
     "@typescript-eslint/parser": "^1.5.0"
   }
